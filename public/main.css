@@ -2,8 +2,18 @@ body {
   margin: 0;
 }
 
+hr {
+  margin: 0;
+}
+
+#main-body {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
 #nav-links, #nav-title {
-  align-content: center;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +30,9 @@ body {
 #nav-ul {
   display: flex;
   flex-flow: row nowrap;
+  height: 10vh;
   justify-content: space-between;
+  margin: 0;
   padding: 0;
 }
 

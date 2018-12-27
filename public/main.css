@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #nav-links, #nav-title {
   align-content: center;
   display: flex;
@@ -6,6 +10,11 @@
 
 #nav-links {
   width: 30vw;
+  margin-right: 2vw;
+}
+
+#nav-title {
+  margin-left: 2vw;
 }
 
 #nav-ul {

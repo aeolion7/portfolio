@@ -13,18 +13,24 @@ hr {
 }
 
 #nav-links, #nav-title {
-  align-items: center;
   display: flex;
   justify-content: space-between;
 }
 
 #nav-links {
-  width: 30vw;
+  align-items: center;
   margin-right: 2vw;
+  width: 30vw;
 }
 
 #nav-title {
+  flex-direction: column;
+  justify-content: center;
   margin-left: 2vw;
+}
+
+#nav-title p {
+  margin: 0;
 }
 
 #nav-ul {
@@ -34,6 +40,10 @@ hr {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+}
+
+#nav-ul a {
+  text-decoration: none;
 }
 
 #nav-ul li {

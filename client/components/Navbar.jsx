@@ -5,7 +5,10 @@ const Navbar = () => (
   <ul id="nav-ul">
     <div id="nav-title">
       <li>
-        <Link to="/">Home</Link>
+        <Link to="/">
+          <p id="title-name">Joseph Lionarons</p>
+          <p id="title-field">Full Stack Software Engineer</p>
+        </Link>
       </li>
     </div>
     <div id="nav-links">

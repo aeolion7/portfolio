@@ -7,7 +7,8 @@ hr {
 }
 
 #main-body {
-  height: 90vh;
+  background-color: blue;
+  height: 92vh;
   position: absolute;
   width: 100%;
 }
@@ -18,14 +19,14 @@ hr {
 }
 
 #nav-links {
-  align-items: center;
+  align-items: flex-end;
   margin-right: 2vw;
   width: 30vw;
 }
 
 #nav-title {
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   margin-left: 2vw;
 }
 
@@ -37,7 +38,7 @@ hr {
   border-bottom: 1px solid grey;
   display: flex;
   flex-flow: row nowrap;
-  height: 10vh;
+  height: 8vh;
   justify-content: space-between;
   margin: 0;
   padding: 0;

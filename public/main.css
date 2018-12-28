@@ -34,6 +34,7 @@ hr {
 }
 
 #nav-ul {
+  border-bottom: 1px solid grey;
   display: flex;
   flex-flow: row nowrap;
   height: 10vh;

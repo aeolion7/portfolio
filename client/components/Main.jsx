@@ -12,7 +12,6 @@ const Main = () => (
   <Router>
     <div className="container">
       <Navbar />
-      <hr />
       <div id="main-body">
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />

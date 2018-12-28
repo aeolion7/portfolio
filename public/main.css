@@ -29,7 +29,7 @@ hr {
   margin-left: 2vw;
 }
 
-#nav-title p {
+#nav-title * {
   margin: 0;
 }
 
